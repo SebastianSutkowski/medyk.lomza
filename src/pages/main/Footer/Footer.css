@@ -1,0 +1,82 @@
+.footerContent{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   padding: 50px 0;
+   flex-wrap: wrap;
+}
+.footerBox h1{
+color: #aaa;
+font-weight: 600;
+font-size: 25px;
+border-bottom: 1px solid #bbb;
+padding-bottom: 15px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.footerBox p{
+   color: #777;
+   text-align: left;
+}
+.footerBox ul{
+   list-style-type: none;
+}
+.footerBox ul li a{
+   color: #777;
+   text-decoration: none;
+   position: relative;
+}
+.footerBox ul li:hover a{
+   color: #aaa;
+   text-decoration: none;
+   position: relative;
+}
+.footerBox ul li{
+   color: #777;
+   text-align: left;
+   padding: 5px 0;
+   margin-left: 30px;
+}
+.footerBox ul li a:before {
+   content: '\f105';
+   font-family: 'FontAwesome';
+   position: absolute;
+   left: -15px;
+   font-size: 14px;
+   line-height: 100%;
+}
+.footerBox .fab{
+   font-size: 25px;
+   /* background:green; */
+   border-radius: 5px;
+   border: solid 1px #555;
+color: #777;
+   padding: 5px;
+   margin: 5px;
+   transition: .3s;
+}
+.footerBox .fa-facebook-square:hover{
+background-color: #3b5998;
+color: white;
+cursor: pointer;
+border: solid 1px white;
+}
+.footerBox .fa-instagram:hover{
+   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
+   color: white;
+   cursor: pointer;
+   border: solid 1px white;
+   }
+.Copyrights{
+   background-color: #18191b;
+   padding: 7px 0;
+   color: #777;
+   text-align: left;
+   padding-left:5vw ;
+   }
+   .Copyrights a{
+color: #999;
+font-size: 17px;
+text-decoration: none;
+   }
+   

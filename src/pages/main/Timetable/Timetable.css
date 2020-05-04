@@ -1,0 +1,103 @@
+.TimetableSection{
+   padding-top: 55px;
+   min-height: 100vh;
+   background-color: rgba(0, 0, 0, 0.851);
+   background-blend-mode: soft-light;
+/* background-repeat: no-repeat; */
+/* transition: .2s ease-out; */
+background-attachment: fixed;
+background-size: cover;
+background-position-x: center;
+background-position-y: inherit;
+}
+
+.TimetableSection h1{
+   display: block;
+   height: 10vh;
+   background: linear-gradient(129deg, rgba(0,0,0,0.8827906162464986) 200px, rgba(255,255,255,0) 200px);
+   /* width: 100%; */
+   font-weight: 700;
+   font-size: 30px;
+   text-align: left;
+   line-height: 10vh;
+   padding-left: 80px;
+   margin-top: 30px;
+}
+table thead tr th,
+table .firstRow td{
+   border: solid 1px #bbb;
+   color: black;
+   background-color: #333;
+   line-height: 40px;
+}
+table tr td{
+   border: solid 1px #bbb;
+}
+table{
+   margin: 40px auto;
+   max-width: 90vw;
+   border-collapse: collapse;
+   
+}
+table td{
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif !important;
+   font-weight: 700;
+}
+table tbody tr td:nth-child(1){
+   border: solid 1px #bbb;
+   color: black;
+   background-color: #fff;
+   line-height: 40px;
+}
+table tbody tr .crossfit{
+   background-color: black;
+   font-weight: 800;
+}
+table tbody tr .runCrew{
+   background-color: black;
+   /* font-weight: 800; */
+   
+   color: white;
+}
+table tbody tr .runCrew img{
+height: 60px;
+padding: 5px;
+   display: block;
+}
+table tbody tr .tkdKids{
+   background-color: rgb(251, 255, 0);
+   color: white;
+   color: black;
+}
+table tbody tr .tkdJunior{
+   background-color: rgb(4, 134, 167);
+   color: white;
+   color: black;
+}
+@media (max-width:940px) {
+   table td,
+   table th{
+      font-size: 10px;
+      font-family: Arial, Helvetica, sans-serif !important;
+      font-weight: 500;
+   }
+   table tbody tr .runCrew img{
+      height: 30px;
+      padding: 5px;
+         display: block;
+      }
+}
+@media (max-width:600px) {
+   table td,
+   table th{
+      font-size: 6px;
+      font-family: Arial, Helvetica, sans-serif !important;
+      font-weight: 500;
+   }
+   table tbody tr .runCrew img{
+      height: 30px;
+      padding: 5px;
+         display: block;
+      }
+}

@@ -1,0 +1,76 @@
+.OfferBox{
+ margin-top: calc(20px + 5vw);
+ display: block;
+ background-color: #fff;
+ width: 100%;
+ /* background-image: url('../../images/crossfit.jpg'); */
+ background-color: rgba(0, 0, 0, 0.801);
+    background-blend-mode: soft-light;
+ background-repeat: no-repeat;
+transition: .2s ease-out;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position-x: center;
+ background-position-y: inherit;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ flex-wrap: wrap;
+ position: relative;
+}
+.OfferTitle {
+   padding-top: calc(10px + 3vw);
+   padding-bottom: 30px;
+   border-bottom: #555 1px solid;
+   width: 30%;
+}
+.offers{
+   display: flex;
+   width: 100%;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 3vw;
+}
+.offerDescription .sportParagraph{
+   display: block;
+border-top: #555 1px solid;;
+margin: 4vw 100px 3vw 100px;
+   padding-top: 4vw;
+   color: #aaa;
+   font-size: 14px;
+   font-family: "Open Sans", sans-serif;
+   text-align: left;
+   font-weight: 100;
+   letter-spacing: 1px;
+   line-height: 20px;
+}
+.offerDescription .offerButton{
+   /* max-width: 200px; */
+   height: 50px;
+   background-color: transparent;
+   border: solid 2px #FAB702;
+   cursor: pointer;
+   text-align: inherit;
+   letter-spacing: 3px;
+   font-weight: 700;
+   font-size: 13px;
+   /* opacity: 0; */
+   margin-bottom: 3vw;
+   transition: .3s;
+}
+.offerDescription .offerButton p{
+   letter-spacing: 1px;
+   font-weight: 700;
+   font-size: 13px;
+   padding:0 10px 0 10px;
+   transition: .3s;
+   text-transform: uppercase;
+   font-family: "Open Sans", sans-serif;
+}
+.offerDescription .offerButton:hover{
+   background-color:#FAB702 ;
+}
+.offerDescription .offerButton:hover p{
+   color: #18191b;
+}
