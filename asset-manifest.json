@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/medyk.lomza/static/css/main.f80aa480.chunk.css",
-    "main.js": "/medyk.lomza/static/js/main.8ffb1392.chunk.js",
-    "main.js.map": "/medyk.lomza/static/js/main.8ffb1392.chunk.js.map",
+    "main.js": "/medyk.lomza/static/js/main.4d17785b.chunk.js",
+    "main.js.map": "/medyk.lomza/static/js/main.4d17785b.chunk.js.map",
     "runtime-main.js": "/medyk.lomza/static/js/runtime-main.2eff4075.js",
     "runtime-main.js.map": "/medyk.lomza/static/js/runtime-main.2eff4075.js.map",
     "static/css/2.b0d70484.chunk.css": "/medyk.lomza/static/css/2.b0d70484.chunk.css",
-    "static/js/2.92da6b5b.chunk.js": "/medyk.lomza/static/js/2.92da6b5b.chunk.js",
-    "static/js/2.92da6b5b.chunk.js.map": "/medyk.lomza/static/js/2.92da6b5b.chunk.js.map",
+    "static/js/2.f4d3da00.chunk.js": "/medyk.lomza/static/js/2.f4d3da00.chunk.js",
+    "static/js/2.f4d3da00.chunk.js.map": "/medyk.lomza/static/js/2.f4d3da00.chunk.js.map",
     "index.html": "/medyk.lomza/index.html",
-    "precache-manifest.d496bcdf8f96433bf3c85f347b4d9101.js": "/medyk.lomza/precache-manifest.d496bcdf8f96433bf3c85f347b4d9101.js",
+    "precache-manifest.c83a97ee4654ce0b88a2de296b36ebfc.js": "/medyk.lomza/precache-manifest.c83a97ee4654ce0b88a2de296b36ebfc.js",
     "service-worker.js": "/medyk.lomza/service-worker.js",
     "static/css/2.b0d70484.chunk.css.map": "/medyk.lomza/static/css/2.b0d70484.chunk.css.map",
     "static/css/main.f80aa480.chunk.css.map": "/medyk.lomza/static/css/main.f80aa480.chunk.css.map",
-    "static/js/2.92da6b5b.chunk.js.LICENSE.txt": "/medyk.lomza/static/js/2.92da6b5b.chunk.js.LICENSE.txt",
+    "static/js/2.f4d3da00.chunk.js.LICENSE.txt": "/medyk.lomza/static/js/2.f4d3da00.chunk.js.LICENSE.txt",
     "static/media/crossfit.jpg": "/medyk.lomza/static/media/crossfit.41a1eb7d.jpg",
     "static/media/dumbell.jpg": "/medyk.lomza/static/media/dumbell.44dd9dfc.jpg",
+    "static/media/giphy.gif": "/medyk.lomza/static/media/giphy.8f097d43.gif",
     "static/media/logo.png": "/medyk.lomza/static/media/logo.60f1a9a7.png",
     "static/media/paweł.png": "/medyk.lomza/static/media/paweł.a41d9538.png",
     "static/media/reebok.png": "/medyk.lomza/static/media/reebok.75698e95.png",
@@ -25,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.2eff4075.js",
     "static/css/2.b0d70484.chunk.css",
-    "static/js/2.92da6b5b.chunk.js",
+    "static/js/2.f4d3da00.chunk.js",
     "static/css/main.f80aa480.chunk.css",
-    "static/js/main.8ffb1392.chunk.js"
+    "static/js/main.4d17785b.chunk.js"
   ]
 }
