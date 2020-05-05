@@ -1,5 +1,6 @@
 import React from 'react';
 import taekwondo from '../images/taekwondo.jpg';
+import logo from '../images/logo.png';
 import crossfit from '../images/crossfit.jpg';
 import dumbell from '../images/dumbell.jpg';
 import { Link } from 'react-router-dom';
@@ -11,7 +12,7 @@ import ContactUs from './ContactUs/ContactUs'
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 const slides = [
-   { title: 'First item', description: 'oferta', photo: taekwondo },
+   { title: 'First item', description: 'oferta', photo: logo },
    { title: 'Second item', description: 'oferta', photo: crossfit },
    { title: 'Third item', description: 'oferta', photo: dumbell }
 ];
