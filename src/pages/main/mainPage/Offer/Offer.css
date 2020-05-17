@@ -35,8 +35,8 @@ transition: .2s ease-out;
 .offerDescription .sportParagraph{
    display: block;
 border-top: #555 1px solid;;
-margin: 4vw 100px 3vw 100px;
-   padding-top: 4vw;
+margin: 3vw;
+   padding-top: 3vw;
    color: #aaa;
    font-size: 14px;
    font-family: "Open Sans", sans-serif;

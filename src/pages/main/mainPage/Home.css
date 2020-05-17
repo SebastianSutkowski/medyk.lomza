@@ -20,10 +20,10 @@
    opacity: 0.3;
    /* top: -600px; */
 }
-.topOfSection p{
+.topOfSection h1{
    position: absolute;
    top: 50vh;
-   left: 10vw;
+   left: calc( 5vw + 200px );
    transform: translate(0,-50%);
    line-height: 63px;
    letter-spacing: 5px;
@@ -31,13 +31,13 @@
    font-size: 80px;
    opacity: 0;
 }
-.current .topOfSection p{
+.current .topOfSection h1{
    transition: .3s ease;
    font-size: 42px;
-   left: 5vw;
+   left: calc( 5vw + 20px );
    opacity: 1;
 }
-.animateOut .topOfSection p{
+.animateOut .topOfSection h1{
    transition: .1s ease;
    font-size: 60px;
    left: 10vw;

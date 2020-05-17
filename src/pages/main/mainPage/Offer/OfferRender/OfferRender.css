@@ -5,7 +5,7 @@
    height: 180px;
    border-radius: 50%;
    line-height: 180px;
-   margin-right: 20px;
+   margin: 10px;
    opacity: 0;
    cursor: pointer;
    box-sizing: border-box;
@@ -55,4 +55,18 @@
 }
 .activeOffer:hover p{
    color: #FAB702;
+}
+@media (max-width:830px) {
+   .singleOffer{
+      width: 130px;
+      height: 130px;
+      line-height: 130px;
+   }
+   .singleOffer p{
+      
+       font-size: 11px;
+       font-weight: 600;
+      letter-spacing: 0.5px;
+
+   }
 }
