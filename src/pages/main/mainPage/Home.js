@@ -2,6 +2,7 @@ import React from 'react';
 import giphy from '../images/giphy.gif';
 import logo from '../images/logo.png';
 import crossfit from '../images/crossfit.jpg';
+import taekwondo from '../images/taekwondo.jpg';
 import dumbell from '../images/dumbell.jpg';
 import { Link } from 'react-router-dom';
 import './Home.css';
@@ -12,8 +13,8 @@ import ContactUs from './ContactUs/ContactUs'
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 const slides = [
-   { title: 'First item', description: 'oferta', photo: logo },
-   { title: 'Second item', description: 'oferta', photo: crossfit },
+   { title: 'First item', description: 'oferta', photo: crossfit },
+   { title: 'Second item', description: 'oferta', photo: taekwondo },
    { title: 'git item', description: 'oferta', photo: giphy },
    { title: 'Third item', description: 'oferta', photo: dumbell }
 ];

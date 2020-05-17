@@ -2,14 +2,26 @@
    width: 30%;
    max-width: 350px;
    min-width: 250px;
-   flex-shrink: 1;
+   /* flex-shrink: 1; */
    text-align: left;
    position: absolute;
    /* overflow: hidden; */
+   background-color: #333;
+   box-shadow: 0px 0px 22px 2px rgba(0,0,0,0.3);
+   margin: 15px;
 }
 .aboutUs h2{
    position: relative;
    top: 0px;
+   text-align: center;
+   font-weight: 500;
+}
+.aboutUs p{
+   color: #bbb;
+   padding: 7px;
+   letter-spacing: 1px;
+   line-height: 1.2em;
+
 }
 .aboutUs:nth-child(1){
    left: -100px;
@@ -37,7 +49,8 @@
 .aboutImg{
    background-color: #FAB702;
    width: 100%;
-   height: 200px;
+   height: 18vw;
+   min-height: 200px;
    position: relative;
    cursor: pointer;
 }
@@ -53,8 +66,8 @@ transition:  .5s;
 min-width: 100%;
 min-height: 100%;
 height: 100%;
-opacity: 0.75;
-filter: grayscale(90%);
+/* opacity: 0.75; */
+filter: grayscale(10%);
 }
 .aboutImg p{
    text-transform: uppercase;

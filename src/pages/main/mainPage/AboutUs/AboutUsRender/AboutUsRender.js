@@ -9,7 +9,7 @@ const AboutUsRender = (props) => {
             <p>poznaj bliżej</p>
          </div>
          <h2>{props.header}</h2>
-         <h3>{props.content}</h3>
+         <p>{props.content}</p>
       </div>
    );
 }
