@@ -13,9 +13,9 @@ import ContactUs from './ContactUs/ContactUs'
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 const slides = [
-   { title: 'First item', description: 'oferta', photo: crossfit },
-   { title: 'Second item', description: 'oferta', photo: taekwondo },
-   { title: 'git item', description: 'oferta', photo: giphy },
+   { title: 'crossfit', description: 'oferta', photo: crossfit },
+   { title: 'Taekwondo', description: 'oferta', photo: taekwondo },
+   { title: 'indoor cycling', description: 'oferta', photo: giphy },
    { title: 'Third item', description: 'oferta', photo: dumbell }
 ];
 const Home = () => {
@@ -31,7 +31,7 @@ const Home = () => {
             {slides.map((slide, index) => <div key={index}>
                <section className="topOfSection">
                   <img src={slide.photo} alt="img1" />
-                  <p>{slide.title}</p>
+                  <h1>{slide.title}</h1>
                   <Link to="/oferta/taekwondo"><button>{slide.description}</button></Link>
                </section>
             </div>)}
