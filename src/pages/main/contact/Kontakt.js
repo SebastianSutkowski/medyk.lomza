@@ -15,16 +15,21 @@ class Kontakt extends Component {
                <h1>spotkajmy się</h1>
                <h2>dołącz do nas już dziś i razem zawalczmy o lepsze jutro!</h2>
                <article className="contactInfo">
+                  <div className="singleContactInfo">
+                     <i className="fas fa-map-marker-alt"></i>
+                     <p>
+                        Aleja Legionów 107a <br />
+                         18-400 Łomża
+                      </p>
+                  </div>
+                  <div className="singleContactInfo">
+                     <i className="far fa-clock"></i>
+                     <p>Poniedziałek - Piątek: <br />
+                     16.00 - 22.00</p>
+                  </div>
+                  <div className="singleContactInfo"><i className="fas fa-phone-alt"></i>
+                     <p>667 110 350</p></div>
 
-                  <i className="fas fa-map-marker-alt"></i>
-                  <p>
-                     Aleja Legionów 107a <br />
-   18-400 Łomża
-   </p>
-                  <i className="far fa-clock"></i>
-                  <p>Poniedziałek - Piątek: 16.00 - 22.00</p>
-                  <i className="fas fa-phone-alt"></i>
-                  <p>667 110 350</p>
 
 
 

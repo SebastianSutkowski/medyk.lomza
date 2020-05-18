@@ -31,11 +31,17 @@ background-position-y: inherit;
    justify-content: center;
    padding-bottom: 10vw;
 }
-
+.singleContactInfo{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
 
 .contactInfo p{
    color: #bbb;
-   display: inline-block;
+   display:block;
+   text-align: center;
+   /* min-width: 180px; */
    }
    .contactInfo .fas,
    .contactInfo .far{
@@ -47,8 +53,7 @@ background-position-y: inherit;
    .contactSectionContent h2{
 /* background: #000; */
 color: #bbb;
-text-align: left;
-margin-left: 20vw;
+text-align: center;
 font-size: 30px;
 font-family: "Dosis", Arial, Helvetica, sans-serif;
 margin-bottom: 35px;
@@ -66,4 +71,28 @@ margin-bottom: 35px;
 .contactMap iframe:hover{
 
    opacity: 0.9;
+}
+@media (max-width:870px) {
+   .contactSectionContent h1{
+      height: 10vh;
+      font-size: 20px;
+      line-height: 10vh;
+   }
+   .contactSectionContent h2{
+      /* background: #000; */
+      color: #bbb;
+      text-align: center;
+      font-size: 20px;
+      font-family: "Dosis", Arial, Helvetica, sans-serif;
+      margin-top: 12vh;
+   }
+   .contactInfo .fas,
+   .contactInfo .far{
+      font-size: 30px;
+      padding: 0 3vw 0 5vw;
+
+   }
+   .contactInfo p{
+      font-size: 12px;
+   }
 }

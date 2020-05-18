@@ -6,6 +6,7 @@ width: 70vw;
 margin: calc(20px + 5vw) auto 0 auto;
 /* flex-wrap: wrap; */
 position: relative;
+overflow: hidden;
 }
 .aboutTitle{
    position: relative;
