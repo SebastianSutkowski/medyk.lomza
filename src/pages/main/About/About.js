@@ -26,21 +26,29 @@ class About extends Component {
 
             <section className="ourTeam">
                <h1>poznaj bliżej naszą kadrę</h1>
-               <article className="pawel">
-                  <h2>paweł remiszewski</h2>
+               <article>
+                  <div>
+                     <h2>paweł remiszewski</h2>
+
+                     <p>Trener II klasy taekwondo olimpijskiego, I Dan. Instruktor Indoor Cycling. Absolwent Akademii Wychowania Fizycznego w Poznaniu. ​Wielokrotny medalista Mistrzostw Polski w różnych kategoriach wagowych i wiekowych. Członek Kadry Olimpijskiej. Odznaczony medalem im. Bronisława Schwarca za wybitne osiągnięcia w sporcie. Pomimo krótkiej kariery trenerskiej, wyszkolił już kilku medalistów Mistrzostw Polski. Specjalizuje się w przygotowaniu specjalnym zawodników. Ponadto  nauczyciel akademicki.</p>
+                  </div>
+
                   <img src={pawel} alt="pawel" />
-                  <p>Trener II klasy taekwondo olimpijskiego, I Dan. Instruktor Indoor Cycling. Absolwent Akademii Wychowania Fizycznego w Poznaniu. ​Wielokrotny medalista Mistrzostw Polski w różnych kategoriach wagowych i wiekowych. Członek Kadry Olimpijskiej. Odznaczony medalem im. Bronisława Schwarca za wybitne osiągnięcia w sporcie. Pomimo krótkiej kariery trenerskiej, wyszkolił już kilku medalistów Mistrzostw Polski. Specjalizuje się w przygotowaniu specjalnym zawodników. Ponadto  nauczyciel akademicki.</p>
                </article>
-               <article className="pawel">
-                  <h2>jerzy miller</h2>
+               <article>
+                  <div><h2>jerzy miller</h2>
+
+                     <p>Doktor nauk o kulturze fizycznej, specjalizujący się w efektywności procesu treningowego u sportowców oraz autor wielu prac naukowych podejmujących te zagadnienie. Trener klasy Mistrzowskiejw Taekwondo Olimpijskim, V Dan. Ukończył Akademie Wychowania Fizycznego w Warszawie, Poznaniu i Białej Podlaskiej. Wyszkolił wielu medalistów Mistrzostw Polski, członków kadr Narodowych oraz reprezentantów Kadr Olimpijskich w różnych kategoriach wiekowych i wagowych. Były trener kadry olimpijskiej w Taekwondo Olimpijskim, odznaczony licznymi orderami zasłużonego dla sportu polskiego. Przez 9 lat szkolił specjalną grupę antyterrorystyczną policji przy Komendzie Wojewódzkiej w Łomży.
+</p></div>
+
                   <img src={pawel} alt="pawel" />
-                  <p>Doktor nauk o kulturze fizycznej, specjalizujący się w efektywności procesu treningowego u sportowców oraz autor wielu prac naukowych podejmujących te zagadnienie. Trener klasy Mistrzowskiejw Taekwondo Olimpijskim, V Dan. Ukończył Akademie Wychowania Fizycznego w Warszawie, Poznaniu i Białej Podlaskiej. Wyszkolił wielu medalistów Mistrzostw Polski, członków kadr Narodowych oraz reprezentantów Kadr Olimpijskich w różnych kategoriach wiekowych i wagowych. Były trener kadry olimpijskiej w Taekwondo Olimpijskim, odznaczony licznymi orderami zasłużonego dla sportu polskiego. Przez 9 lat szkolił specjalną grupę antyterrorystyczną policji przy Komendzie Wojewódzkiej w Łomży.
-   </p>
                </article>
-               <article className="pawel">
-                  <h2>marta remiszewska</h2>
+               <article>
+                  <div><h2>marta remiszewska</h2>
+
+                     <p>Trener II klasy taekwondo olimpijskiego, I Dan. Instruktor Indoor Cycling. Absolwentka Akademii Wychowania Fizycznego w Poznaniu oraz doktorantka w Instytucie Sportu Akademii Wychowania Fizycznego w Warszawie., specjalizująca się w teorii treningu sportowego. Wielokrotna medalistka mistrzostw Polski w różnych kategoriach wagowych i wiekowych, członkini Kadry Narodowej Juniorów oraz Kadry Szkolenia Olimpijskiego. Odznaczona medalem im Bronisława Schwarca za wybitne osiągnięcia w sporcie.  Reprezentantka Polski podczas sztafety ze zniczem olimpijskim Londyn 2012. Specjalizuje się w kształtowaniu sprawności ogólnej zawodników. Pondto nauczyciel akademicki.</p></div>
+
                   <img src={pawel} alt="pawel" />
-                  <p>Trener II klasy taekwondo olimpijskiego, I Dan. Instruktor Indoor Cycling. Absolwentka Akademii Wychowania Fizycznego w Poznaniu oraz doktorantka w Instytucie Sportu Akademii Wychowania Fizycznego w Warszawie., specjalizująca się w teorii treningu sportowego. Wielokrotna medalistka mistrzostw Polski w różnych kategoriach wagowych i wiekowych, członkini Kadry Narodowej Juniorów oraz Kadry Szkolenia Olimpijskiego. Odznaczona medalem im Bronisława Schwarca za wybitne osiągnięcia w sporcie.  Reprezentantka Polski podczas sztafety ze zniczem olimpijskim Londyn 2012. Specjalizuje się w kształtowaniu sprawności ogólnej zawodników. Pondto nauczyciel akademicki.</p>
                </article>
             </section>
          </>

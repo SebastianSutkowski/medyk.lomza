@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Kontakt.css';
 import dumbell from '../images/dumbell.jpg';
-
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 class Kontakt extends Component {
    state = {}
@@ -30,7 +30,12 @@ class Kontakt extends Component {
                   <div className="singleContactInfo"><i className="fas fa-phone-alt"></i>
                      <p>667 110 350</p></div>
 
-
+                  <div>
+                     <MessengerCustomerChat
+                        pageId="<YOUR_PAGE_ID>"
+                        appId="<YOUR_APP_ID>"
+                     />
+                  </div>
 
 
                </article>
