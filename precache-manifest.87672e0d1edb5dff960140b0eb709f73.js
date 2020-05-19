@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f4e43b4e7302f211b9224591c7789563",
+    "revision": "7e63dab3ac63fa0f83c0810d2a937187",
     "url": "/medyk.lomza/index.html"
   },
   {
-    "revision": "8f41aef1f5f548363353",
+    "revision": "6fa6914e64093fb63280",
     "url": "/medyk.lomza/static/css/2.b0d70484.chunk.css"
   },
   {
-    "revision": "859a72669497293967b6",
+    "revision": "d862c16cfa75b80ef747",
     "url": "/medyk.lomza/static/css/main.a2f4fe78.chunk.css"
   },
   {
-    "revision": "8f41aef1f5f548363353",
-    "url": "/medyk.lomza/static/js/2.4c0c6301.chunk.js"
+    "revision": "6fa6914e64093fb63280",
+    "url": "/medyk.lomza/static/js/2.1a9ff3de.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/medyk.lomza/static/js/2.4c0c6301.chunk.js.LICENSE.txt"
+    "url": "/medyk.lomza/static/js/2.1a9ff3de.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "859a72669497293967b6",
-    "url": "/medyk.lomza/static/js/main.ec4351ae.chunk.js"
+    "revision": "d862c16cfa75b80ef747",
+    "url": "/medyk.lomza/static/js/main.08c8d78e.chunk.js"
   },
   {
     "revision": "c4f1e3eb76ef993743e1",
