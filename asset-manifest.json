@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/medyk.lomza/static/css/main.a2f4fe78.chunk.css",
-    "main.js": "/medyk.lomza/static/js/main.65889e06.chunk.js",
-    "main.js.map": "/medyk.lomza/static/js/main.65889e06.chunk.js.map",
+    "main.js": "/medyk.lomza/static/js/main.7237cc41.chunk.js",
+    "main.js.map": "/medyk.lomza/static/js/main.7237cc41.chunk.js.map",
     "runtime-main.js": "/medyk.lomza/static/js/runtime-main.2eff4075.js",
     "runtime-main.js.map": "/medyk.lomza/static/js/runtime-main.2eff4075.js.map",
     "static/css/2.b0d70484.chunk.css": "/medyk.lomza/static/css/2.b0d70484.chunk.css",
     "static/js/2.15d62ab5.chunk.js": "/medyk.lomza/static/js/2.15d62ab5.chunk.js",
     "static/js/2.15d62ab5.chunk.js.map": "/medyk.lomza/static/js/2.15d62ab5.chunk.js.map",
     "index.html": "/medyk.lomza/index.html",
-    "precache-manifest.85a298f250d39361a9c7838057868da3.js": "/medyk.lomza/precache-manifest.85a298f250d39361a9c7838057868da3.js",
+    "precache-manifest.1bdb5a2dfea3868f80576989a71be685.js": "/medyk.lomza/precache-manifest.1bdb5a2dfea3868f80576989a71be685.js",
     "service-worker.js": "/medyk.lomza/service-worker.js",
     "static/css/2.b0d70484.chunk.css.map": "/medyk.lomza/static/css/2.b0d70484.chunk.css.map",
     "static/css/main.a2f4fe78.chunk.css.map": "/medyk.lomza/static/css/main.a2f4fe78.chunk.css.map",
@@ -28,6 +28,6 @@
     "static/css/2.b0d70484.chunk.css",
     "static/js/2.15d62ab5.chunk.js",
     "static/css/main.a2f4fe78.chunk.css",
-    "static/js/main.65889e06.chunk.js"
+    "static/js/main.7237cc41.chunk.js"
   ]
 }
