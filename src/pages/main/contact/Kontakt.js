@@ -8,11 +8,12 @@ class Kontakt extends Component {
    componentDidMount() {
       window.scrollTo(0, 0);
    }
+
    render() {
       return (
          <>
             <section className="contactSectionContent" style={{ backgroundImage: `url('${dumbell}')` }}>
-               <h1>spotkajmy się</h1>
+               <h1>szpotkajmy się</h1>
                <h2>dołącz do nas już dziś i razem zawalczmy o lepsze jutro!</h2>
                <article className="contactInfo">
                   <div className="singleContactInfo">
@@ -30,16 +31,20 @@ class Kontakt extends Component {
                   <div className="singleContactInfo"><i className="fas fa-phone-alt"></i>
                      <p>667 110 350</p></div>
 
-                  <div>
-                     <MessengerCustomerChat
-                        pageId="<YOUR_PAGE_ID>"
-                        appId="<YOUR_APP_ID>"
-                     />
-                  </div>
+
 
 
                </article>
-
+               <div>
+                  <MessengerCustomerChat
+                     pageId="109881430733264"
+                     appId="856382448202808"
+                     // themeColor="#bbb"
+                     // minimized="true"
+                     greetingDialogDisplay='hide'
+                  // htmlRef="<REF_STRING>"
+                  />
+               </div>
             </section>
             <section className="contactMap">
                <iframe title='dsad' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2391.9235396366284!2d22.061572215926237!3d53.16541119594921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471e336bfd9cd651%3A0x8abc16242688511d!2sAkademia%20Sportu%20Medyk!5e0!3m2!1spl!2spl!4v1585130246053!5m2!1spl!2spl"></iframe>

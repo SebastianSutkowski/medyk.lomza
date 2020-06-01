@@ -23,7 +23,7 @@ const Navigation = () => {
 
    return (
       <nav>
-         <div className="logo">Medyk</div>
+         <div className="logo"><NavLink to="/" exact activeClassName="active"><span>Medyk</span></NavLink></div>
          <div className="menuList">
             <ul>
                <li><NavLink to="/" exact activeClassName="active">Start</NavLink></li>
